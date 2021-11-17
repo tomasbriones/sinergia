@@ -77,7 +77,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'sinergia',
-        'USER': 'postgres',
+        'USER': 'tbriones',
         'PASSWORD': 'secreto',
         'HOST': '127.0.0.1',
         'PORT': '5432',
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es-CL'
 
 TIME_ZONE = 'UTC'
 

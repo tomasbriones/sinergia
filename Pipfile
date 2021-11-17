@@ -9,6 +9,7 @@ django-ckeditor = "*"
 pillow = "*"
 pylint = "*"
 pylint-django = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.6"
