@@ -9,12 +9,12 @@
 <body>
     <h1>Sinergia</h1>
     <ul>
-        <li><a href="/">Portada</a></li>
-        <li><a href="/featured/">Featured</a></li>
-        <li><a href="/recentWork/">Recent Work</a></li>
-        <li><a href="/presentation/">Presentation</a></li>
-        <li><a href="/blogEntires/">Blog Entires</a></li>
-        <li><a href="/contactUs">Contact Us</a></li>
+        <li><a href="{% url 'home' %}">Portada</a></li>
+        <li><a href="{% url 'featured' %}">Featured</a></li>
+        <li><a href="{% url 'recentWork' %}">Recent Work</a></li>
+        <li><a href="{% url 'presentation' %}">Presentation</a></li>
+        <li><a href="{% url 'blogEntires' %}">Blog Entires</a></li>
+        <li><a href="{% url 'contactUs' %}">Contact Us</a></li>
     </ul>
     {% block content %}{% endblock  %}
 </body>
